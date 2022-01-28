@@ -1,0 +1,20 @@
+<section class="blog-detail mtb-40">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="blog-left">
+                    <h1>Dashboard</h1>
+                    <div class="blog-desc">
+                        <ul class="navbar-nav px-3">
+                            <li class="nav-item" *ngIf="isLoggedIn">
+                                <button (click)="onLogOut()" class="nav-link; btn btn-primary"
+                                    routerLink='/'>SignOut</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
